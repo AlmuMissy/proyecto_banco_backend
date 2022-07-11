@@ -65,6 +65,7 @@ export class BancoArchivos {
   }
 
   async insertarGestor(gestor: Gestor) {
+    
     // asignamos el id del nuevo gestor a insertar
     gestor.id = this.idSiguiente;
 
