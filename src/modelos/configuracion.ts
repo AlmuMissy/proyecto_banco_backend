@@ -1,5 +1,11 @@
 export interface Configuracion {
-    archivosUbicacion: string;
+  archivosUbicacion: string;
+  archivosHabilitado: false,
+
+  "databaseHabilitado": boolean,
+  "databaseHost": string,
+  "databasePuerto": number,
+  "databaseNombre": string
   }
 
   
