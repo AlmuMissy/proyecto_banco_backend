@@ -1,10 +1,16 @@
 {
-    "archivosUbicacion":"datos",
-    "archivosHabilitado": false,
+  "archivosUbicacion": "datos",
+  "archivosHabilitado": false,
 
-    "databaseHabilitado":true,
-    "databaseHost":"127.0.0.1",
-    "databasePuerto":27017,
-    "databaseNombre":"banco"
+  "databaseHabilitado": true,
+  "databaseHost": "127.0.0.1",
+  "databasePuerto": 27017,
+  "databaseNombre": "banco",
 
+  "smtpHost": "smtp.gmail.com",
+  "smtpPuerto": 465,
+  "smtpUsuario": "pepitonode@gmail.com",
+  "smtpPassword": "rhncigxanbrurjnf",
+
+  "autenticacionHabilitado": false
 }

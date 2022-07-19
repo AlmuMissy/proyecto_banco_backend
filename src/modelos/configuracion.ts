@@ -1,11 +1,18 @@
 export interface Configuracion {
   archivosUbicacion: string;
-  archivosHabilitado: false,
+  archivosHabilitado: boolean;
 
-  "databaseHabilitado": boolean,
-  "databaseHost": string,
-  "databasePuerto": number,
-  "databaseNombre": string
-  }
+  databaseHabilitado: boolean,
+  databaseHost: string,
+  databasePuerto: number,
+  databaseNombre: string,
 
-  
+  smtpHost: string,
+  smtpPuerto: number,
+  smtpUsuario: string,
+  smtpPassword: string,
+
+  autenticacionHabilitado: boolean,
+
+  expressPuerto: number
+}

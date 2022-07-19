@@ -82,11 +82,12 @@ export class BancoArchivos {
   }
 
   async eliminarGestorPorId(id: number) {
-    this.gestores.filter(gestor =>  gestor.id !== id);
+    this.gestores = this.gestores.filter(gestor => gestor.id !== id);
     this.guardarGestores();
   }
-  async eliminarGestores(){
-    this.gestores=[];
+
+  async eliminarGestores() {
+    this.gestores = [];
     this.guardarGestores();
   }
 
