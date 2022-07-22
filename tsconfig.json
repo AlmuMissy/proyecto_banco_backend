@@ -8,10 +8,12 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "outDir": "dist",
-	"sourceMap": true,
+	  "sourceMap": true,
     "rootDir": "src",
   },
   "lib": [
     "es2015"
-  ]
+  ],
+  "exclude": ["public/**/*"],
+  "include": ["src/**/*"]
 }

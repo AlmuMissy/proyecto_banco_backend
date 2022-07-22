@@ -14,5 +14,13 @@ export interface Configuracion {
 
   autenticacionHabilitado: boolean,
 
-  expressPuerto: number
+  expressPuerto: number,
+
+  peliculasApiKey: string,
+
+  telegramToken: string,
+  telegramId: string,
+
+  juegoPuertoExpress: number,
+  juegoPuertoWebsocket: number
 }

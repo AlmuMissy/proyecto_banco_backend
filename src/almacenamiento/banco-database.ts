@@ -106,7 +106,7 @@ export class BancoDatabase {
     await this.cGestores.insertOne(gestor);
     this.idSiguiente++;
   }
-  
+
   async actualizarGestor(gestor: Gestor) {
     await this.cGestores.updateOne({
       usuario: gestor.usuario 
@@ -124,7 +124,6 @@ export class BancoDatabase {
       id
     });
   }
-
 
   async eliminarGestores() {
     await this.cGestores.deleteMany({});

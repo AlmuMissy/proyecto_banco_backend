@@ -12,5 +12,15 @@
   "smtpUsuario": "pepitonode@gmail.com",
   "smtpPassword": "rhncigxanbrurjnf",
 
-  "autenticacionHabilitado": false
+  "autenticacionHabilitado": false,
+
+  "expressPuerto": 8085,
+
+  "peliculasApiKey": "cbcbe3da053f9aee159e0d91310da838",
+
+  "telegramToken": "5488442109:AAHkcaol6vZbrTyi5zW_7aaiwdc7iCrwTyM",
+  "telegramId": "2142492013",
+
+  "juegoPuertoExpress": 9000,
+  "juegoPuertoWebsocket": 9001
 }
