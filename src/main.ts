@@ -62,9 +62,9 @@ async function main() {
   };
   
   w.moduloAutenticacionWeb = new ModuloAutenticacionWeb(w);
-  w.moduloExpress = new ModuloExpress(w);
+  // w.moduloExpress = new ModuloExpress(w);
   w.moduloAutenticacion = new ModuloAutenticacion(w);
-  w.moduloWebsocket = new ModuloWebsocket(w);
+  // w.moduloWebsocket = new ModuloWebsocket(w);
   w.moduloTelegram = new ModuloTelegram(w);
   w.moduloJuegoAnfitrion = new ModuloJuegoAnfitrion(w);
   w.moduloJuegoJugador = new ModuloJuegoJugador(w);
